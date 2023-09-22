@@ -1,0 +1,36 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: black;
+}
+section.content {
+    width: calc(100vw - 400px);
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+article {
+    border: 2px solid black;
+    padding: 20px;
+}
+.navbar {
+    margin: 0;
+    padding: 40px;
+    background-color: purple;
+}
+button{
+padding: 10px 20px;
+opacity: 0.6;
+}
+button:hover {
+    background-color: blue;
+}
+nav.sidebar {
+    width:400px;
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+    height: 100vh;
+    left:0;
+    top:0;
+}
